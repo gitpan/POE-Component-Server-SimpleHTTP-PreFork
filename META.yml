@@ -24,7 +24,7 @@ no_index:
 provides:
   POE::Component::Server::SimpleHTTP::PreFork:
     file: lib/POE/Component/Server/SimpleHTTP/PreFork.pm
-    version: 1.99_03
+    version: 1.99_04
 requires:
   Carp: 0
   HTTP::Date: 0
@@ -44,4 +44,4 @@ resources:
   homepage: http://github.com/bingos/poe-component-server-simplehttp-prefork/tree
   license: http://dev.perl.org/licenses/
   repository: git://github.com/bingos/poe-component-server-simplehttp-prefork.git
-version: 1.99_03
+version: 1.99_04
