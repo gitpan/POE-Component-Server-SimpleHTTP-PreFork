@@ -1,3 +1,47 @@
-1.99_04 Tue Sep  8 21:23:11 BST 2009
-  - Fixed the CLOSE event to refer to SUPER::CLOSE
-  - Fixed warning in the stream test
+==============================
+2010-05-19 12:12:43 +0100 2.04
+==============================
+
+  commit 4d4e322df8f527a7d39304d106a5231e0a936a1c
+  Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
+  Date:   Wed May 19 12:12:43 2010 +0100
+  
+    Bump the version to stable 2.04 so as to match SimpleHTTP version
+
+  commit 0c7881ea75e3bcb41224aed8275529a5b3cc94cf
+  Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
+  Date:   Wed May 19 12:07:34 2010 +0100
+  
+    Added readmefrompod
+
+  commit 4e5801bce1d06846eb13585380873f07cd320174
+  Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
+  Date:   Wed May 19 12:06:16 2010 +0100
+  
+    Added git-log.pl
+
+  commit 06590c7260356094446c2dd04efd8a2be29754ee
+  Author: Markus Jansen <markus.jansen@ericsson.com>
+  Date:   Wed May 19 11:27:45 2010 +0100
+  
+    Applied a patch from Markus Jansen which adds 'ipc_glue' option. 
+
+=================================
+2009-09-08 21:25:24 +0100 1.99_04
+=================================
+
+  commit aa93e027858de8e6de5bedda783308468be89029
+  Author: Chris Williams <chris@bingosnet.co.uk>
+  Date:   Tue Sep 8 21:25:24 2009 +0100
+  
+    Fixed the CLOSE event to refer to SUPER::CLOSE
+
+  commit 4879833208d29a7eacf7c0acbdb54941f6087910
+  Author: Chris Williams <chris@bingosnet.co.uk>
+  Date:   Fri Sep 4 10:57:58 2009 +0100
+  
+    Forgot to generate a MANIFEST 
+
+==============
+End of Excerpt
+==============

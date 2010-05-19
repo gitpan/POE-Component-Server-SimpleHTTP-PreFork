@@ -11,7 +11,7 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: 6.42
 distribution_type: module
-generated_by: 'Module::Install version 0.91'
+generated_by: 'Module::Install version 0.97'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -24,7 +24,7 @@ no_index:
 provides:
   POE::Component::Server::SimpleHTTP::PreFork:
     file: lib/POE/Component/Server/SimpleHTTP/PreFork.pm
-    version: 1.99_04
+    version: 2.04
 requires:
   Carp: 0
   HTTP::Date: 0
@@ -35,7 +35,7 @@ requires:
   MooseX::AttributeHelpers: 0
   MooseX::POE: 0.205
   POE: 1.0000
-  POE::Component::Server::SimpleHTTP: 2
+  POE::Component::Server::SimpleHTTP: 2.04
   Socket: 0
   Storable: 0
   Sys::Hostname: 0
@@ -44,4 +44,4 @@ resources:
   homepage: http://github.com/bingos/poe-component-server-simplehttp-prefork/tree
   license: http://dev.perl.org/licenses/
   repository: git://github.com/bingos/poe-component-server-simplehttp-prefork.git
-version: 1.99_04
+version: 2.04
