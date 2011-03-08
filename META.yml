@@ -5,13 +5,13 @@ author:
 build_requires:
   ExtUtils::MakeMaker: 6.42
   POE::Component::Client::HTTP: 0.82
-  POE::Filter::HTTP::Parser: 0.02
+  POE::Filter::HTTP::Parser: 1.06
   Test::More: 0.47
   Test::POE::Client::TCP: 0.1
 configure_requires:
   ExtUtils::MakeMaker: 6.42
 distribution_type: module
-generated_by: 'Module::Install version 0.97'
+generated_by: 'Module::Install version 1.00'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -24,7 +24,7 @@ no_index:
 provides:
   POE::Component::Server::SimpleHTTP::PreFork:
     file: lib/POE/Component/Server/SimpleHTTP/PreFork.pm
-    version: 2.04
+    version: 2.06
 requires:
   Carp: 0
   HTTP::Date: 0
@@ -44,4 +44,4 @@ resources:
   homepage: http://github.com/bingos/poe-component-server-simplehttp-prefork/tree
   license: http://dev.perl.org/licenses/
   repository: git://github.com/bingos/poe-component-server-simplehttp-prefork.git
-version: 2.04
+version: 2.06
