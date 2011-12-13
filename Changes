@@ -1,3 +1,20 @@
+=================================
+2011-12-13 20:30:38 +0000 2.07_01
+=================================
+
+  commit 36e0f93e1b0143bca8c916489b88fba79af8874c
+  Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
+  Date:   Tue Dec 13 20:30:38 2011 +0000
+  
+    Bump to version 2.07_01
+
+  commit 1be6fd14d1e32cfc5639ce2bfd98d790e862b787
+  Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
+  Date:   Tue Dec 13 20:28:37 2011 +0000
+  
+    Change use of sig( CHLD ) to sig_child() to future-proof against
+    changes to POE 
+
 ==============================
 2011-03-08 00:56:41 +0000 2.06
 ==============================
