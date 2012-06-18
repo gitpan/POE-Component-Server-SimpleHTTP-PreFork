@@ -1,3 +1,19 @@
+==============================
+2012-06-18 12:49:25 +0100 2.08
+==============================
+
+  commit c531027a8f8b68e5052c257620d096c961a382b1
+  Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
+  Date:   Mon Jun 18 12:49:25 2012 +0100
+  
+    Bump to version 2.08
+
+  commit bb8c48cd56704258455b4703bf39b19a0937673b
+  Author: bkembree <bkembree@gmail.com>
+  Date:   Fri Jun 15 10:16:29 2012 -0700
+  
+    Ensure params passed to SUPER::got_error do not include $self twice. 
+
 =================================
 2011-12-13 20:30:38 +0000 2.07_01
 =================================
