@@ -3,7 +3,7 @@ package POE::Component::Server::SimpleHTTP::PreFork;
 use strict;
 use warnings;
 
-our $VERSION = '2.08';
+our $VERSION = '2.10';
 
 use POE;
 use Socket;
@@ -32,7 +32,6 @@ BEGIN {
 }
 
 use MooseX::POE;
-use MooseX::AttributeHelpers;
 use Moose::Util::TypeConstraints;
 
 extends 'POE::Component::Server::SimpleHTTP';
@@ -93,14 +92,14 @@ has 'is_child' => (
 );
 
 has 'reqcount' => (
-  metaclass => 'Counter',
+  traits    => ['Counter'],
   is        => 'ro',
   isa       => 'Num',
   default   => sub { 0 },
-  provides  => {
-    inc => 'inc_reqcount',
-    dec => 'dec_reqcount',
-    reset => 'reset_reqcount',
+  handles  => {
+    'inc_reqcount', 'inc',
+    'dec_reqcount', 'dec',
+    'reset_reqcount', 'reset',
   },
 );
 

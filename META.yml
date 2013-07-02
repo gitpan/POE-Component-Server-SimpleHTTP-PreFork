@@ -25,15 +25,14 @@ no_index:
 provides:
   POE::Component::Server::SimpleHTTP::PreFork:
     file: lib/POE/Component/Server/SimpleHTTP/PreFork.pm
-    version: 2.08
+    version: 2.10
 requires:
   Carp: 0
   HTTP::Date: 0
   HTTP::Request: 0
   HTTP::Response: 0
   IPC::Shareable: 0
-  Moose: 0.81
-  MooseX::AttributeHelpers: 0
+  Moose: 0.9
   MooseX::POE: 0.205
   POE: 1.0000
   POE::Component::Server::SimpleHTTP: 2.04
@@ -44,8 +43,5 @@ requires:
 resources:
   homepage: https://github.com/bingos/poe-component-server-simplehttp-prefork/tree
   license: http://dev.perl.org/licenses/
-  repository:
-    type: git
-    url: git://github.com/bingos/poe-component-server-simplehttp-prefork.git
-    web: https://github.com/bingos/poe-component-server-simplehttp-prefork/tree
-version: 2.08
+  repository: git://github.com/bingos/poe-component-server-simplehttp-prefork.git
+version: 2.10
